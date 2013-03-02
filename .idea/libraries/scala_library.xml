@@ -5,9 +5,7 @@
       <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/lib/scala-swing.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/lib/scala-dbc.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="file://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/doc/scala-devel-docs/api" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/src/scala-library-src.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/src/scala-swing-src.jar!/" />
