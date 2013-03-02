@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="scala-library">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/lib/scala-library.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/lib/scala-swing.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/lib/scala-dbc.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/doc/scala-devel-docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/src/scala-library-src.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/src/scala-swing-src.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/src/scala-dbc-src.jar!/" />
+    </SOURCES>
+  </library>
+</component>
