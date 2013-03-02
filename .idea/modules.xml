@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Adversarial/Adversarial.iml" filepath="$PROJECT_DIR$/Adversarial/Adversarial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Neural/Neural.iml" filepath="$PROJECT_DIR$/Neural/Neural.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScalaProjects.iml" filepath="$PROJECT_DIR$/ScalaProjects.iml" />
     </modules>
   </component>

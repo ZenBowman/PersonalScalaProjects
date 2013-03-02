@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73216c5b-362f-4ef6-90cd-43cd419243bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/scala-library-2.8.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/scalatest-1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/Action.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/Game.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/GameState.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/Grid3x3$$anonfun$1$$anonfun$apply$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/Grid3x3$$anonfun$1$$anonfun$apply$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/Grid3x3$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/Grid3x3$$anonfun$draw$1$$anonfun$apply$mcVI$sp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/Grid3x3$$anonfun$draw$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/Grid3x3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/MiniMax$$anonfun$maxValue$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/MiniMax$$anonfun$maxValue$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/MiniMax$$anonfun$minValue$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/MiniMax$$anonfun$minValue$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/MiniMax.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToe$$anonfun$actionForSuccessor$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToe$$anonfun$getSuccessors$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToe$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToe.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeAction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$findHorizontalLine$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$findHorizontalLines$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$findLines$1$$anonfun$apply$mcI$sp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$findLines$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$findLinesByType$1$$anonfun$apply$mcVI$sp$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$findLinesByType$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$findVerticalLine$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$findVerticalLines$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$turn$1$$anonfun$apply$mcVI$sp$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$turn$1$$anonfun$apply$mcVI$sp$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState$$anonfun$turn$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Adversarial/org/zenbowman/adversarial/TicTacToeState.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Adversarial/org/zenbowman/adversarial/TicTacToeTest$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Adversarial/org/zenbowman/adversarial/TicTacToeTest$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Adversarial/org/zenbowman/adversarial/TicTacToeTest$$anonfun$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Adversarial/org/zenbowman/adversarial/TicTacToeTest$$anonfun$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Adversarial/org/zenbowman/adversarial/TicTacToeTest$$anonfun$5$$anonfun$apply$mcV$sp$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Adversarial/org/zenbowman/adversarial/TicTacToeTest$$anonfun$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Adversarial/org/zenbowman/adversarial/TicTacToeTest$$anonfun$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Adversarial/org/zenbowman/adversarial/TicTacToeTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/Game.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/MiniMax.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/TicTacToe.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Adversarial/test/org/zenbowman/adversarial/TicTacToeTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scala_library__1_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Neural/Neural.iml" />
+      <change type="DELETED" beforePath="C:\Users\psamtani\Documents\GitHub\PersonalScalaProjects\lib\scala-library-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\psamtani\Documents\GitHub\PersonalScalaProjects\lib\scalatest-1.3.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adversarial/Adversarial.iml" afterPath="$PROJECT_DIR$/Adversarial/Adversarial.iml" />
     </list>
     <ignored path="ScalaProjects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,10 +84,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToe.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TicTacToe.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/TicTacToe.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="280" selection-end="280" vertical-scroll-proportion="0.5125628">
+            <state line="12" column="114" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NeuronTest.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Neural/test/org/zenbowman/neural/NeuronTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Neuron.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Neural/src/org/zenbowman/neural/Neuron.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="12" selection-start="101" selection-end="101" vertical-scroll-proportion="0.14026402">
               <folding />
             </state>
           </provider>
@@ -157,6 +137,8 @@
         <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/MiniMax.scala" />
         <option value="$PROJECT_DIR$/Adversarial/test/org/zenbowman/adversarial/TicTacToeTest.scala" />
         <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/TicTacToe.scala" />
+        <option value="$PROJECT_DIR$/Neural/src/org/zenbowman/neural/Neuron.scala" />
+        <option value="$PROJECT_DIR$/Neural/test/org/zenbowman/neural/NeuronTest.scala" />
       </list>
     </option>
   </component>
@@ -220,13 +202,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonalScalaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Neural" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonalScalaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Neural" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neural" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonalScalaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Neural" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neural" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Neuron.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScalaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PersonalScalaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adversarial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -245,7 +303,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="Downloaded.Files.Path" value="C:\Users\psamtani\Documents\GitHub\PersonalScalaProjects\lib" />
   </component>
-  <component name="RunManager" selected="ScalaTest.TicTacToeTest">
+  <component name="RunManager" selected="ScalaTest.NeuronTest">
     <configuration default="false" name="!ScalaTests in 'test'!" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="ScalaProjects" />
       <setting name="path" value="" />
@@ -264,6 +322,21 @@
     <configuration default="false" name="TicTacToeTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Adversarial" />
       <setting name="path" value="org.zenbowman.adversarial.TicTacToeTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NeuronTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Neural" />
+      <setting name="path" value="NeuronTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -411,9 +484,10 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.!ScalaTests in 'test'!" />
       <item index="1" class="java.lang.String" itemvalue="ScalaTest.TicTacToeTest" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.NeuronTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -473,8 +547,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.67140603" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6603476" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -566,7 +640,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/TicTacToe.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="280" selection-end="280" vertical-scroll-proportion="0.5125628">
+        <state line="12" column="114" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neural/test/org/zenbowman/neural/NeuronTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Neural/src/org/zenbowman/neural/Neuron.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="101" selection-end="101" vertical-scroll-proportion="0.14026402">
           <folding />
         </state>
       </provider>
@@ -588,7 +676,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Scala (Adversarial)|Scala</last-edited>
+          <last-edited>Scala (Neural)|Scala</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -623,7 +711,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Scala|Adversarial</last-edited>
+          <last-edited>Adversarial</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -647,7 +735,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-library</last-edited>
+          <last-edited>org.scalatest:scalatest:1.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
