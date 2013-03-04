@@ -9,7 +9,7 @@ class Grid3x3(val positions: List[Int]) {
     }
   }
 
-  def empties(): List[(Int, Int)] = {
+  def empties: List[(Int, Int)] = {
     val empty = for {
       x <- 0 until 3
       y <- 0 until 3
@@ -23,7 +23,7 @@ class Grid3x3(val positions: List[Int]) {
   def newGrid(turn: Int, x: Int, y: Int): Grid3x3 = {
     val thisList = positions.toBuffer
     thisList(positionIndex(x, y)) = turn
-    return new Grid3x3(thisList.toList)
+    new Grid3x3(thisList.toList)
   }
 
   def apply(x: Int, y: Int): Int = {
@@ -53,7 +53,10 @@ class TicTacToeState(val positions: Grid3x3) extends GameState {
   val Nomark = 0
 
   def availableSpots() = positions.empties
-  def draw = positions.draw
+
+  def draw() {
+    positions.draw()
+  }
 
 
   override def equals(obj: Any) = {
@@ -83,11 +86,27 @@ class TicTacToeState(val positions: Grid3x3) extends GameState {
   }
 
   def getUtility(): Int = {
-    findLines
+    findLines()
   }
 
   def findLines(): Int = {
-    findVerticalLines().getOrElse(findHorizontalLines().getOrElse(0))
+    findVerticalLines().getOrElse(
+      findHorizontalLines().getOrElse(
+        findDiagonalLine(x => x).getOrElse(
+          findDiagonalLine(x => 2 - x).getOrElse(0))))
+  }
+
+  def findDiagonalLine(f: Int => Int): Option[Int] = {
+    val firstVal = positions(0, f(0))
+    for {
+      x <- 0 until 3
+      y = f(x)
+    } {
+      if (positions(x, y) != firstVal) {
+        return None
+      }
+    }
+    Some(firstVal)
   }
 
   def findHorizontalLine(y: Int): Option[Int] = {
@@ -126,6 +145,8 @@ class TicTacToeState(val positions: Grid3x3) extends GameState {
     None
   }
 
+  def stateWithAction(action: Int, x: Int, y: Int): TicTacToeState = stateWithAction(action, (x, y))
+
   def stateWithAction(action: Int, pos: (Int, Int)): TicTacToeState = {
     new TicTacToeState(positions.newGrid(action, pos._1, pos._2))
   }
@@ -135,25 +156,27 @@ class TicTacToeState(val positions: Grid3x3) extends GameState {
   def findHorizontalLines() = findLinesByType(findHorizontalLine)
 }
 
-class TicTacToeAction(position: (Int, Int), move: Int) extends Action {
-  override def toString() = {
+class TicTacToeAction(val position: (Int, Int), move: Int) extends Action {
+  override def toString = {
     "Place X on (" + position._1 + "," + position._2 + ")"
   }
 }
 
 object TicTacToe extends Game[TicTacToeState] {
+  def draw(state: TicTacToeState) = state.draw()
+
   def isTerminal(state: TicTacToeState): Boolean = {
     (state.getUtility() != 0) || (state.availableSpots().length == 0)
   }
 
   def getSuccessors(state: TicTacToeState): List[TicTacToeState] = {
-    val whoseTurn = state.turn
+    val whoseTurn = state.turn()
     for (availableMove <- state.availableSpots) yield state.stateWithAction(whoseTurn, availableMove)
   }
 
   def actionForSuccessor(currentState: TicTacToeState, successor: TicTacToeState): Option[Action] = {
-    val whoseTurn = currentState.turn
-    for (availableMove <- currentState.availableSpots) {
+    val whoseTurn = currentState.turn()
+    for (availableMove <- currentState.availableSpots()) {
       if (currentState.stateWithAction(whoseTurn, availableMove) == successor)
         return Some(new TicTacToeAction(availableMove, whoseTurn))
     }
