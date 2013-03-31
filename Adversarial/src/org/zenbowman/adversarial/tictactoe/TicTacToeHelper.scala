@@ -1,5 +1,6 @@
-package org.zenbowman.adversarial
+package org.zenbowman.adversarial.tictactoe
 
+import org.zenbowman.adversarial.AlphaBetaSearch
 
 object TicTacToeHelper {
 

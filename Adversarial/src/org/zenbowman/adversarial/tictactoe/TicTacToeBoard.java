@@ -1,4 +1,4 @@
-package org.zenbowman.adversarial;
+package org.zenbowman.adversarial.tictactoe;
 
 
 import javafx.application.Application;
@@ -10,6 +10,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
+import org.zenbowman.adversarial.AlphaBetaSearch;
 import scala.Tuple2;
 
 class ResetHandler implements EventHandler<MouseEvent> {
@@ -46,7 +47,6 @@ class ClickHandler implements EventHandler<MouseEvent> {
 public class TicTacToeBoard extends Application {
     final Rectangle[] rectangles = new Rectangle[9];
     final AlphaBetaSearch<TicTacToeState> alphaBetaSearch = TicTacToeHelper.gamePlayer();
-    final Integer[] rectangleValues = new Integer[9];
     TicTacToeState currentState;
 
     public int rectIndex(int x, int y) {
@@ -76,7 +76,6 @@ public class TicTacToeBoard extends Application {
         thisRect.setStroke(Color.BLACK);
         thisRect.setStrokeWidth(3);
         thisRect.setOnMouseClicked(new ClickHandler(x, y, this));
-        rectangleValues[rectIndex] = 0;
         rectangles[rectIndex] = thisRect;
         return thisRect;
     }
@@ -90,7 +89,7 @@ public class TicTacToeBoard extends Application {
             }
         }
 
-        playComputerTurn();
+        //playComputerTurn();
     }
 
     public void playComputerTurn() {
@@ -136,7 +135,7 @@ public class TicTacToeBoard extends Application {
         stage.setScene(scene);
         stage.show();
 
-        playComputerTurn();
+        //playComputerTurn();
     }
 
     public static void main(String[] args) {

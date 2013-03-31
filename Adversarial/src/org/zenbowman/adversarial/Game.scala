@@ -14,5 +14,5 @@ trait Action {
 }
 
 trait GameState {
-  def getUtility: Int
+  def getUtility(): Int
 }

@@ -1,51 +1,7 @@
-package org.zenbowman.adversarial
+package org.zenbowman.adversarial.tictactoe
 
-class Grid3x3(val positions: List[Int]) {
+import org.zenbowman.adversarial.GameState
 
-  override def equals(obj: Any) = {
-    obj match {
-      case other: Grid3x3 => positions == other.positions
-      case _ => false
-    }
-  }
-
-  def empties: List[(Int, Int)] = {
-    val empty = for {
-      x <- 0 until 3
-      y <- 0 until 3
-      if (apply(x, y) == 0)
-    } yield (x, y)
-    empty.toList
-  }
-
-  def positionIndex(x: Int, y: Int): Int = ((3 * y) + x)
-
-  def newGrid(turn: Int, x: Int, y: Int): Grid3x3 = {
-    val thisList = positions.toBuffer
-    thisList(positionIndex(x, y)) = turn
-    new Grid3x3(thisList.toList)
-  }
-
-  def apply(x: Int, y: Int): Int = {
-    positions(positionIndex(x, y))
-  }
-
-  def draw() {
-    println("---------")
-    for (y <- 0 until 3) {
-      for (x <- 0 until 3) {
-        apply(x, y) match {
-          case 1 => print("X")
-          case -1 => print("O")
-          case _ => print(".")
-        }
-        print("\t")
-      }
-      println()
-    }
-    println("---------")
-  }
-}
 
 class TicTacToeState(val positions: Grid3x3) extends GameState {
   val XMark = 1
@@ -77,7 +33,7 @@ class TicTacToeState(val positions: Grid3x3) extends GameState {
       if (p == XMark) countX += 1
       if (p == OMark) countY += 1
     }
-    if (countX <= countY) {
+    if (countX < countY) {
       XMark
     }
     else {
@@ -154,33 +110,5 @@ class TicTacToeState(val positions: Grid3x3) extends GameState {
   def findVerticalLines() = findLinesByType(findVerticalLine)
 
   def findHorizontalLines() = findLinesByType(findHorizontalLine)
-}
-
-class TicTacToeAction(val position: (Int, Int), move: Int) extends Action {
-  override def toString = {
-    "Place X on (" + position._1 + "," + position._2 + ")"
-  }
-}
-
-object TicTacToe extends Game[TicTacToeState] {
-  def draw(state: TicTacToeState) = state.draw()
-
-  def isTerminal(state: TicTacToeState): Boolean = {
-    (state.getUtility() != 0) || (state.availableSpots().length == 0)
-  }
-
-  def getSuccessors(state: TicTacToeState): List[TicTacToeState] = {
-    val whoseTurn = state.turn()
-    for (availableMove <- state.availableSpots) yield state.stateWithAction(whoseTurn, availableMove)
-  }
-
-  def actionForSuccessor(currentState: TicTacToeState, successor: TicTacToeState): Option[Action] = {
-    val whoseTurn = currentState.turn()
-    for (availableMove <- currentState.availableSpots()) {
-      if (currentState.stateWithAction(whoseTurn, availableMove) == successor)
-        return Some(new TicTacToeAction(availableMove, whoseTurn))
-    }
-    None
-  }
 }
 

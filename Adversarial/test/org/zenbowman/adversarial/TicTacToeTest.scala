@@ -1,6 +1,7 @@
 package org.zenbowman.adversarial
 
 import org.scalatest.FlatSpec
+import tictactoe._
 
 class TicTacToeTest extends FlatSpec {
 
