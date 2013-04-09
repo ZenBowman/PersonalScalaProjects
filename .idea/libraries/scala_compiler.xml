@@ -1,8 +1,10 @@
 <component name="libraryTable">
   <library name="scala-compiler">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/lib/scala-compiler.jar!/" />
-      <root url="jar://$USER_HOME$/Downloads/scala-2.8.1.final/scala-2.8.1.final/lib/scala-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lang/scala-2.10.1/lib/scala-compiler.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lang/scala-2.10.1/lib/scala-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lang/scala-2.10.1/lib/scala-reflect.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lang/scala-2.10.1/lib/scala-swing.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

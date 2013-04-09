@@ -88,14 +88,12 @@ public class TicTacToeBoard extends Application {
                 updateRectangle(i, j, 0);
             }
         }
-
-        //playComputerTurn();
     }
 
     public void playComputerTurn() {
         final TicTacToeAction ticTacToeAction = (TicTacToeAction) alphaBetaSearch.decision(currentState);
         currentState = currentState.stateWithAction(1, ticTacToeAction.position());
-        final Tuple2<Integer, Integer> position = (Tuple2<Integer, Integer>) ticTacToeAction.position();
+        final Tuple2<Integer, Integer> position = ticTacToeAction.positionAsIntegerTuple();
         updateRectangle(position._1(), position._2(), 1);
     }
 

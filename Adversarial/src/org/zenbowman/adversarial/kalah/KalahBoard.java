@@ -11,8 +11,8 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import scala.collection.Iterator;
-import scala.collection.immutable.List;
+
+import java.util.List;
 
 
 public class KalahBoard extends Application {
@@ -45,10 +45,8 @@ public class KalahBoard extends Application {
 
     void playComputerTurn() {
         System.out.println("Computer is thinking....");
-        List<Integer> actions = Kalah.play(currentState).moves();
-        Iterator<Integer> iter = actions.iterator();
-        while (iter.hasNext()) {
-            final int positionToplay = iter.next();
+        List<Integer> actions = Kalah.play(currentState).movesAsIntegerList();
+        for (Integer positionToplay : actions) {
             playTurn(positionToplay);
             try {
                 Thread.sleep(1000);
