@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73216c5b-362f-4ef6-90cd-43cd419243bd" name="Default" comment="Scala 10 and Java 7 compatible version">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/scala_library.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/scala_library__1_.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahAction.scala" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahAction.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahBoard.java" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahBoard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/csp/CSP.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/csp/Exercise_5_2.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_scalatest_scalatest_1_3.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adversarial/Adversarial.iml" afterPath="$PROJECT_DIR$/Adversarial/Adversarial.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Neural/Neural.iml" afterPath="$PROJECT_DIR$/Neural/Neural.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScalaProjects.iml" afterPath="$PROJECT_DIR$/ScalaProjects.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeAction.scala" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeAction.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeBoard.java" afterPath="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeBoard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/libraries/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScalaProjects.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="73216c5b-362f-4ef6-90cd-43cd419243bd" time="1365475590892" ignored="false" />
-    <file path="/fragment.java" changelist="73216c5b-362f-4ef6-90cd-43cd419243bd" time="1365472786032" ignored="false" />
+    <file path="/Dummy.txt" changelist="73216c5b-362f-4ef6-90cd-43cd419243bd" time="1365998054676" ignored="false" />
+    <file path="/fragment.java" changelist="73216c5b-362f-4ef6-90cd-43cd419243bd" time="1365998285694" ignored="false" />
     <file path="/KalahAction.scala" changelist="73216c5b-362f-4ef6-90cd-43cd419243bd" time="1365475504534" ignored="false" />
     <file path="/KalahBoard.java" changelist="73216c5b-362f-4ef6-90cd-43cd419243bd" time="1365475770853" ignored="false" />
     <file path="/TicTacToeBoard.java" changelist="73216c5b-362f-4ef6-90cd-43cd419243bd" time="1365474174452" ignored="false" />
@@ -102,10 +95,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KalahBoard.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="KalahBoard.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="17" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.6306818">
+            <state line="53" column="17" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,19 +106,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kalah.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/Kalah.scala">
+      <file leaf-file-name="KalahAction.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahAction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="2" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
+            <state line="7" column="26" selection-start="222" selection-end="222" vertical-scroll-proportion="0.27631578">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeAction.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeAction.scala">
+      <file leaf-file-name="CSP.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/csp/CSP.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercise_5_2.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/csp/Exercise_5_2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="37" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,10 +142,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KalahAction.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahAction.scala">
+      <file leaf-file-name="TicTacToeAction.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeAction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+            <state line="9" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kalah.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/Kalah.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="2" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,8 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/SeedPositions.scala" />
-        <option value="$PROJECT_DIR$/Adversarial/test/org/zenbowman/adversarial/KalahTest.scala" />
         <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeState.scala" />
         <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeHelper.scala" />
         <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToe.scala" />
@@ -183,14 +192,16 @@
         <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeBoard.java" />
         <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahAction.scala" />
         <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahBoard.java" />
+        <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/csp/Exercise_5_2.scala" />
+        <option value="$PROJECT_DIR$/Adversarial/src/org/zenbowman/csp/CSP.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -203,7 +214,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -268,33 +279,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adversarial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PersonalScalaProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Adversarial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adversarial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kalah" />
+              <option name="myItemId" value="zenbowman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,7 +308,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -336,15 +321,16 @@
     <property name="project.structure.side.proportion" value="0.20000002" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="Downloaded.Files.Path" value="C:\Users\psamtani\Documents\GitHub\PersonalScalaProjects\lib" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.KalahBoard">
+  <component name="RunManager" selected="Application.Exercise_5_2">
     <configuration default="false" name="TicTacToeTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Adversarial" />
       <setting name="path" value="org.zenbowman.adversarial.TicTacToeTest" />
@@ -395,6 +381,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -420,19 +419,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -482,42 +468,6 @@
       <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="AdversarialTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="Adversarial" />
-      <setting name="path" value="" />
-      <setting name="package" value="org.zenbowman.adversarial" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="All in package" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="KalahTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="Adversarial" />
-      <setting name="path" value="org.zenbowman.adversarial.KalahTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="TicTacToeBoard" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.zenbowman.adversarial.tictactoe.TicTacToeBoard" />
       <option name="VM_PARAMETERS" value="" />
@@ -562,13 +512,66 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.AdversarialTest" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.KalahTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TicTacToeBoard" />
-      <item index="3" class="java.lang.String" itemvalue="Application.KalahBoard" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.TicTacToeTest" />
-      <item index="5" class="java.lang.String" itemvalue="ScalaTest.NeuronTest" />
+    <configuration default="false" name="Exercise_5_2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.zenbowman.csp.Exercise_5_2" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Adversarial" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AdversarialTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="Adversarial" />
+      <setting name="path" value="" />
+      <setting name="package" value="org.zenbowman.adversarial" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="All in package" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="KalahTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="Adversarial" />
+      <setting name="path" value="org.zenbowman.adversarial.KalahTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Application.TicTacToeBoard" />
+      <item index="1" class="java.lang.String" itemvalue="Application.KalahBoard" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Exercise_5_2" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.AdversarialTest" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.KalahTest" />
+      <item index="5" class="java.lang.String" itemvalue="ScalaTest.TicTacToeTest" />
+      <item index="6" class="java.lang.String" itemvalue="ScalaTest.NeuronTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -620,7 +623,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1382" height="744" extended-state="0" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -629,16 +632,16 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3657718" sideWeight="0.4737631" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3168" sideWeight="0.43824703" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3657718" sideWeight="0.5262369" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3648" sideWeight="0.52589643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22488755" sideWeight="0.63422817" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31711408" sideWeight="0.5622189" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2247012" sideWeight="0.6832" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3168" sideWeight="0.561753" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -716,24 +719,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/tictactoe/TicTacToeState.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
@@ -802,19 +787,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahAction.scala">
+    <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+        <state line="53" column="17" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/csp/CSP.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahBoard.java">
+    <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/csp/Exercise_5_2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="17" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.6306818">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="10" column="37" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adversarial/src/org/zenbowman/adversarial/kalah/KalahAction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="222" selection-end="222" vertical-scroll-proportion="0.27631578">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -870,12 +869,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ScalaProjects</last-edited>
+          <last-edited>Scala|Adversarial</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.20000002" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -895,7 +893,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-compiler</last-edited>
+          <last-edited>scala-test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
