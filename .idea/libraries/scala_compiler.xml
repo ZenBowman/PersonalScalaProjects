@@ -5,6 +5,7 @@
       <root url="jar://$PROJECT_DIR$/../../lang/scala-2.10.1/lib/scala-library.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../lang/scala-2.10.1/lib/scala-reflect.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../lang/scala-2.10.1/lib/scala-swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lang/scala-2.10.1/lib/scala-actors.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
